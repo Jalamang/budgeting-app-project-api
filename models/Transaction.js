@@ -1,78 +1,72 @@
 module.exports = [
   {
-    item_name: 'TV', 
+    item_name: "Income",
     amount: 1159.0,
-    date: new Date(2021, 21, 07),
-    from: "Income",
-    from: 'DMV',
-    category: 'education'
-    
+    date: "June 07, 2020",
+    from: "Psaal Store",
+    category: "income",
   },
   {
-    item_name: 'TV', 
+    item_name: "Food",
     amount: -300,
     date: "June 09, 2021",
-    from: "Taxes",
-    from: 'DMV',
-    category: 'education'
+    from: "Pet Store",
+    category: "Food",
   },
   {
-    item_name: 'TV', 
+    item_name: "Savings",
     amount: -200,
     date: "September 21, 2021",
     from: "Retirement",
-    from: 'DMV',
-    category: 'education'
+    category: "savings",
   },
   {
-    item_name: 'TV', 
-    amount: -100,
+    item_name: "Income",
+    amount: 4100,
     date: "December 19, 2021",
     from: "Savings",
-    from: 'DMV',
-    category: 'education'
+    category: "Income",
   },
   {
-    item_name: 'TV', 
+    item_name: "Television",
     amount: -100,
     date: "August 11, 2021",
     from: "Credit Card Payment",
-    from: 'DMV',
-    category: 'education'
+    category: "Bank",
   },
   {
-    item_name: 'TV', 
+    item_name: "Parrot",
     amount: 20,
     date: "November 21, 2022",
-    from: "Mnthly Birthday $$ from Aunt Tilda",
-    category: 'education'
+    from: "Pasaal Store",
+    category: "Pet",
   },
   {
-    item_name: 'TV', 
+    item_name: "Cat Food",
     amount: -4,
     date: "October 01, 2020",
-    from: "Coffee",
-    category: 'education'
+    from: "Pet Store",
+    category: "Food",
   },
   {
-    item_name: 'TV', 
+    item_name: "Router",
     amount: -100,
     date: "February 13, 2022",
-    from: "Internet",
-    category: 'education'
+    from: "Cisco",
+    category: "Telecoms",
   },
   {
-    item_name: 'TV', 
+    item_name: "Popcorn",
     amount: -76,
     date: "March 21, 2020",
     from: "Groceries",
-    category: 'education'
+    category: "Food",
   },
   {
-    item_name: 'TV', 
-    amount: 700,
+    item_name: "Multiplexers",
+    amount: -4500,
     date: "April 05, 2021",
     from: "Pet Food",
-    category: 'education'
+    category: "Telecoms",
   },
 ];
