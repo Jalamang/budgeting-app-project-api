@@ -1,8 +1,9 @@
 const express = require("express");
+const { uuid } = require('uuidv4');
 
 const budgetArray = require("../models/Transaction");
 
-
+console.log(uuid());
 const transactions = express.Router();
 
 transactions.get("/", (request, response) => {
@@ -26,12 +27,15 @@ transactions.get("/:id", (request, response) => {
     }
   });
 
+  // const idx = budgetArray.length ? budgetArray[budgetArray.length - 1].id + 1 : 0;
 
   //creating
   transactions.post("/", (request, response) => {
     console.log("Received a POST HTTP method: /transactions");
     console.log(request)
     budgetArray.push(request.body);
+    budgetArray[budgetArray.length - 1].id = uuid()
+    
     response.status(201).json(budgetArray);
   });
 
