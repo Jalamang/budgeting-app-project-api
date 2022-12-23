@@ -1,0 +1,12 @@
+POST :http://localhost:3007/transactions
+Content-Type: application/json
+
+{
+
+
+    "item_name": "Income",
+    "amount": 150,
+    "date": "June 07, 2020",
+    "from": "Psaal Store",
+    "category": "income"
+}
