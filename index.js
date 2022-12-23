@@ -3,12 +3,15 @@ const express = require('express');
 const budgetControllers = require('./controllers/budgetController')
 
 
+
 const index = express();
 const cors = require("cors")
 
 index.use(cors())
 index.use(express.json())
+
 index.use('/transactions', budgetControllers)
+
 
 
 index.get("/", (request, response) => {
